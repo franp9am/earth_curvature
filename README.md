@@ -6,3 +6,9 @@ The flashlight is at some altitute over the water, let's call it $h_1$, let's sa
 The distant observer on the other side of the lake can only see the light if his eyes are at certain minimal altitude $h_2$.
 If the distance between the flashlight and the observer is $d$, then we can estimate the earth circumference.
 
+![schema](schema.png)
+
+
+## Some formulas
+
+
