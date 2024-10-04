@@ -22,7 +22,7 @@ height $h_2$.
 
 If the distance between the flashlight and the observer is $d$, then we can estimate the earth circumference from this.
 
-![schema](./schema.png)
+![schema](img/schema.png)
 
 
 ## Some formulas
