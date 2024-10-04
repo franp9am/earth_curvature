@@ -121,6 +121,15 @@
                 document.getElementById("result").innerText = "Please enter valid numbers.";
                 return;
             }
+
+            if ((distance < 100 * Math.max(flashlightHeight, observerHeight)) || (
+                Math.max(observerHeight, flashlightHeight) > 100)
+            )  {
+                document.getElementById("result").innerText = (
+                    "These numbers are too extreme for the simplified formula and are unlikely to be true.");
+                return;
+
+            }
     
             // Convert to meters if units are feet
             if (units === "feets") {
@@ -137,7 +146,8 @@
             const circumference = 2 * Math.PI * radius / 1000; // Convert meters back to kilometers
     
             // Display the result
-            document.getElementById("result").innerText = `Estimated Earth circumference: 
+            document.getElementById("result").innerText = `Estimated Earth circumference:
+
             ${circumference.toFixed(2)} kilometers (${(circumference / 1.609344).toFixed(2)} miles)`;
         }
     </script>
