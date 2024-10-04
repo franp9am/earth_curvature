@@ -24,7 +24,7 @@ If the distance between the flashlight and the observer is $d$, then we can esti
 
 ![schema](img/schema.png)
 
-[Here](https://franp9am.github.io/earth_curvature/index.html) you can see an online calculator for this.
+[Here](https://franp9am.github.io/earth_curvature) you can see an online calculator for this.
 
 ## Some formulas
 
@@ -52,6 +52,6 @@ $$ R \simeq \frac{d^2}{2(h_1 + h_2 + \sqrt{h_1 h_2})}.\quad\quad\quad(2) $$
 
 If you want a perfect solution for $(1)$, you can reformulate it to a rather long quadratic equation for $R$ and solve exactly, I enourage you to do a PR.
 For instance, if $d = 5000m$ ($5\,\, km$), $h_1 = 1m$ and $h_2 = 2m$, then the earth radius estimate by $(2)$ would be $2\,144\,660.94\,\,m$ and by a numerical solution of $(1)$ it would be $2\,144\,660.148 \,\,m$. This has nothing to do with "real" Earth radius, but you see that the solutions are very close, so it's ok to use the $(2)$ simplification.
-That's why we use it [here](https://franp9am.github.io/earth_curvature/index.html).
+That's why we use it [here](https://franp9am.github.io/earth_curvature).
 
 From the equations above, it should also be clear that from a height $h$, you can see and can be seen from a distance of max $\sqrt{2Rh + h^2}$.
