@@ -35,7 +35,8 @@ $$ R^2 + y^2 = (R+h_2)^2  $$
 
 So we get $x = \sqrt{2Rh_1 + h_1^2}$, $y=\sqrt{2Rh_2 + h_2^2}$, and 
 
-$$ d = x + y = \sqrt{2Rh_1 + h_1^2} + \sqrt{2Rh_2 + h_2^2}.       (1) $$
+$$ d = x + y = \sqrt{2Rh_1 + h_1^2} + \sqrt{2Rh_2 + h_2^2}. $$
+*(1)*
 
 From this, we can estimate $R$, once we know the other variables. Or similarly, we can estimate $h_2$ if we know everything else.
 
