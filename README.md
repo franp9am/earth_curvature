@@ -24,6 +24,7 @@ If the distance between the flashlight and the observer is $d$, then we can esti
 
 ![schema](img/schema.png)
 
+[Here](index.html) you can see an online calculator for this.
 
 ## Some formulas
 
