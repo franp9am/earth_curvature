@@ -24,7 +24,7 @@ If the distance between the flashlight and the observer is $d$, then we can esti
 
 ![schema](img/schema.png)
 
-[Here](index.html) you can see an online calculator for this.
+[Here](https://franp9am.github.io/earth_curvature/index.html) you can see an online calculator for this.
 
 ## Some formulas
 
