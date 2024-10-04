@@ -30,8 +30,10 @@ If the distance between the flashlight and the observer is $d$, then we can esti
 By Pytagorean theorem, we have
 
 $$
-R^2 + x^2 = (R+h_1)^2 \\
-R^2 + y^2 = (R+h_2)^2 
+R^2 + x^2 = (R+h_1)^2
+$$
+$$
+R^2 + y^2 = (R+h_2)^2  
 $$
 
 So we get $x = \sqrt{2Rh_1 + h_1^2}$, $y=\sqrt{2Rh_2 + h_2^2}$, and 
