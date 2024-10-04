@@ -26,6 +26,29 @@ If the distance between the flashlight and the observer is $d$, then we can esti
 
 [Here](https://franp9am.github.io/earth_curvature) you can see an online calculator for this.
 
+## Weather conditions
+
+Although the outlined method is simple, weather is actually the catch. 
+
+Ideal day is one with no wind, no rain, no fog, not too humind, not too hot, and with similar water and air temperatures.
+That excludes summer days at sea.
+
+Here is what can go wrong:
+* [Atmospheric refraction](https://en.wikipedia.org/wiki/Atmospheric_refraction) can bend the light so that it does not travel straight. This effect is so strong that you can indeed sometimes see things far beyond horizon, such as [hovering ships](https://www.bbc.com/news/uk-england-cornwall-56286719). It is caused by temperature gradient in the atmosphere.
+  * Hot air above cold water or vice versa could be a problem.
+  * Overcast days are probably better than sunny days, even if you perform the experiment in the night afterwards
+* Low wind, to prevent air turbulence. In bad conditions, the flash light can become "flickering" instead of a steady beam of light.
+* Low waves, to not introduce another variable in the equations; highest waves should be significantly lower than the height of the flashlight and observer eye.
+
+## Repeated measurements
+
+Due to various errors and conditions, it is likely that you will not compute the Earth circmuference exactly corresponding to the real value. 
+* Repeat the measurements and record everything.
+* Record weather conditions
+* Repeat the experiment in another day
+
+We will be happy if you share your experiences somewhere here.
+
 ## Some formulas
 
 By Pytagorean theorem, we have
