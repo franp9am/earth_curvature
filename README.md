@@ -80,3 +80,6 @@ For instance, if $d = 5000m$ ($5 km$), $h_1 = 1m$ and $h_2 = 2m$, then the earth
 That's why we use it [here](https://franp9am.github.io/earth_curvature).
 
 From the equations above, it should also be clear that from a height $h$, you can see and can be seen from a distance of max $\sqrt{2Rh + h^2}$. That's what we use [here](https://franp9am.github.io/earth_curvature/distance.html).
+
+
+Also, compare with a similar app [here](https://dizzib.github.io/earth/curve-calc/?d0=5&h0=1&unit=metric).
