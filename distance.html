@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth Circumference Estimate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .input-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        label {
+            font-size: 16px;
+            color: #555;
+            flex: 1;
+        }
+        input[type="number"] {
+            flex: 2;
+            padding: 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+        select {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            flex: 1;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Max Visibility Distance Over Water</h1>
+    
+    <div class="container">
+  
+        <div class="input-group">
+            <label for="units">Units</label>
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="units" value="meters" checked onchange="updateEarthRadius()">Meters
+                </label>
+                <label>
+                    <input type="radio" name="units" value="feets" onchange="updateEarthRadius()">Feets
+                </label>
+            </div>
+        </div>
+        
+        <div class="input-group">
+            <label for="flashlightHeight">Flashlight Height</label>
+            <input type="number" id="flashlightHeight" placeholder="Enter flashlight height" />
+        </div>
+
+        <div class="input-group">
+            <label for="earthRadius">Earth radius</label>
+            <input type="number" id="earthRadius" placeholder="Enter assumed Earth radius" value="6371000"/>
+        </div>
+
+        <button onclick="calculateDistance()">Calculate Max Visibility Distance</button>
+    
+        <p id="result"></p>
+
+    <img src="img/schema_mini.png"/ width="550">
+    </div>
+
+    <script>
+
+    function updateEarthRadius() {
+        const earthRadiusInput = document.getElementById("earthRadius");
+        const selectedUnit = document.querySelector('input[name="units"]:checked').value;
+
+        if (selectedUnit === "meters") {
+            earthRadiusInput.value = 6371000; // Earth radius in meters
+        } else if (selectedUnit === "feets") {
+            earthRadiusInput.value = 20902231; // Earth radius in feet
+        }
+    }
+
+    function calculateDistance() {
+        let flashlightHeight = parseFloat(document.getElementById('flashlightHeight').value);
+        let earthRadius = parseFloat(document.getElementById('earthRadius').value);
+    
+        const units = document.querySelector('input[name="units"]:checked').value;
+
+        // Validate input
+        if (isNaN(flashlightHeight) || isNaN(earthRadius)) {
+            document.getElementById("result").innerText = "Please enter valid numbers.";
+            return;
+        }
+
+        if (units === "feets") {
+            flashlightHeight *= 0.3048;
+            earthRadius *= 0.3048;
+        }
+        const distance = Math.sqrt(2 * earthRadius * flashlightHeight + flashlightHeight * flashlightHeight);
+
+        // Display the result
+        document.getElementById("result").innerText = `Estimated maximal visibility distance:
+        ${distance.toFixed(2)} meters (${(distance * 3.28084).toFixed(2)} feets)`;
+    }
+    </script>
+    
+
+</body>
+</html>

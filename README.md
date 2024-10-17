@@ -26,6 +26,8 @@ If the distance between the flashlight and the observer is $d$, then we can esti
 
 [Here](https://franp9am.github.io/earth_curvature) you can see an online calculator for this.
 
+[Here](https://franp9am.github.io/earth_curvature/distance.html) you can calculate the maximal distance where the flash light beam can still reach water surface. For instance, assuming the a common earth radius 6371 km, the flashlight 1 m above water surface can reach up to 3.5 km far. If you are closer than this, you will always see the light, no regard if your eyes are near water surface or not. 
+
 ## Weather conditions
 
 Although the outlined method is simple, weather is actually the catch. 
