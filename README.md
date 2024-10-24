@@ -1,6 +1,8 @@
-## Estimating earth size
+# Estimating earth size
 
-Did you know that one can measure the Earth without any scientific equipment? You only need
+### Did you know that one can measure the Earth without any scientific equipment? 
+
+You only need
 * a big water surface such as a lake; ideally there should be two places at least 5 km (3 miles) distant from each other that you can both access
 * a flash light, stronger is better (but we even tried with an iphone flash and it kind of worked)
 * two people
@@ -31,7 +33,6 @@ If the distance between the flashlight and the observer is $d$, then we can esti
 ## Weather conditions
 
 Although the outlined method is simple, weather is actually the catch. 
-
 Ideal day is one with no wind, no rain, no fog, not too humind, not too hot, and with similar water and air temperatures.
 That excludes summer days at sea.
 
