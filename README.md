@@ -5,7 +5,7 @@
 You only need
 * a big water surface such as a lake; ideally there should be two places at least 5 km (3 miles) distant from each other that you can both access
 * a flash light, stronger is better (but we even tried with an iphone flash and it kind of worked)
-* two people
+* two people (or rather two groups)
 * a measuring rod or any tooling to measure height above water, up to 2 meters at least
 
 Apart of estimating Earth diameter, you can also show your flat-Earther friends that the Earth is, indeed, round. 
