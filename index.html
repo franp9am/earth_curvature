@@ -124,14 +124,13 @@
                 return;
             }
 
-            if ((distance < 100 * Math.max(flashlightHeight, observerHeight)) || (
-                Math.max(observerHeight, flashlightHeight) > 100)
-            )  {
-                document.getElementById("result").innerText = (
-                    "These numbers are too extreme for the simplified formula and are unlikely to be true.");
-                return;
-
-            }
+            //if ((distance < 100 * Math.max(flashlightHeight, observerHeight)) || (
+            //    Math.max(observerHeight, flashlightHeight) > 100)
+            //)  {
+            //    document.getElementById("result").innerText = (
+            //        "These numbers are too extreme for the simplified formula and are unlikely to be true.");
+            //    return;
+            //}
     
             // Convert to meters if units are feet
             if (units === "feets") {
